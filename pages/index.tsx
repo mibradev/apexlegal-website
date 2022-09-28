@@ -29,7 +29,7 @@ function ContactUs() {
 
           <div className="space-y-3">
             <label className="block" htmlFor="message">Message <span className="text-red-500">*</span></label>
-            <textarea className="block w-full p-2 bg-stone-100 text-stone-900" name="message" rows={3} id="message" required></textarea>
+            <textarea className="block w-full p-2 bg-stone-100 text-stone-900" name="message" rows={3} id="message" required />
           </div>
 
           <div data-netlify-recaptcha="true"></div>
