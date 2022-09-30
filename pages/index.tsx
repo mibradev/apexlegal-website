@@ -1,3 +1,4 @@
+import type { NextPage } from 'next'
 import Head from 'next/head'
 
 function ContactUs() {
@@ -40,7 +41,7 @@ function ContactUs() {
   );
 }
 
-export default function Home() {
+const Home: NextPage = () => {
   return (
     <>
       <Head>
@@ -54,3 +55,5 @@ export default function Home() {
     </>
   )
 }
+
+export default Home
