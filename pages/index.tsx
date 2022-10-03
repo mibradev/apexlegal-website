@@ -13,13 +13,15 @@ const Home: NextPage = () => {
         <Header />
         <Hero />
       </div>
+
+      <Features />
     </>
   )
 }
 
 function Header() {
   return (
-    <header className="p-5">
+    <header className="p-6 pb-0">
       <h1 className="text-xl font-bold">Apex Legal</h1>
     </header>
   )
@@ -27,11 +29,42 @@ function Header() {
 
 function Hero() {
   return (
-    <main className="px-5 py-20 text-center space-y-5">
+    <main className="p-6 space-y-6 py-24 text-center">
       <h1 className="text-3xl text-bold">Lorem ipsum dolor sit.</h1>
       <p className="text-lg text-cyan-200">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus saepe nesciunt asperiores itaque amet quas.</p>
       <a href="#" className="inline-block bg-gradient-to-r from-cyan-700 to-cyan-500 text-cyan-100 px-8 py-3 rounded-md text-xl text-bold shadow-md">Contact us</a>
     </main>
+  )
+}
+
+function Features() {
+  return (
+    <section className="p-6 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+      <div className="space-y-2">
+        <h1 className="text-xl text-bold text-cyan-900">A Powerful Human Touch</h1>
+        <p>Your words are personal. We respect that. So, your words stay in human hands from beginning to end. Your documents are human translated & human approved.</p>
+      </div>
+      <div className="space-y-2">
+        <h1 className="text-xl text-bold text-cyan-900">Quality</h1>
+        <p>We are typically aware that mistranslation may cost you millions! Our robust quality assurance system makes us the most accurate translation company and helps you reduce costs.</p>
+      </div>
+      <div className="space-y-2">
+        <h1 className="text-xl text-bold text-cyan-900">Industry Experts</h1>
+        <p>A translation should not only be written well, but should be written in the language your industry understands. Our dedicated team of lawyer linguists have the knowledge and experience to convey messages using the typical language of law.</p>
+      </div>
+      <div className="space-y-2">
+        <h1 className="text-xl text-bold text-cyan-900">Dedication</h1>
+        <p>APEX LEGAL team is dedicated to delivering the best services to meet all the needs of clients engaged in language related matters.</p>
+      </div>
+      <div className="space-y-2">
+        <h1 className="text-xl text-bold text-cyan-900">Affordable Cost</h1>
+        <p>We have specially designed packages to address the translation needs of all our customers. Our affordable and competitive prices start from $0.05/word so that all the businesses can pursue their dream of going global.</p>
+      </div>
+      <div className="space-y-2">
+        <h1 className="text-xl text-bold text-cyan-900">Confidentiality and Privacy</h1>
+        <p>We always protect the confidentiality and privacy of your documents. All of our linguists sign non-disclosure agreements.</p>
+      </div>
+    </section>
   )
 }
 
