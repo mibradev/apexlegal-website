@@ -32,10 +32,11 @@ function Header() {
 function Hero() {
   return (
     <main className="p-6 md:px-12 lg:px-24 xl:px-48 space-y-6 py-24 text-center">
-      <h1 className="text-3xl text-bold">Lorem ipsum dolor sit.</h1>
+      <h1 className="text-3xl text-bold">The Translation Agency You Need</h1>
       <p className="text-lg text-cyan-200">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus saepe
-        nesciunt asperiores itaque amet quas.
+        What should you look for in a translation agency? If you’ve never hired
+        a translation agency before, it might seem intimidating, or even risky.
+        We want to ease your worries.
       </p>
       <a
         href="#"
