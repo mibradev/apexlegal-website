@@ -16,6 +16,7 @@ const Home: NextPage = () => {
         <Hero />
       </div>
       <Features />
+      <AboutUs />
     </>
   )
 }
@@ -101,6 +102,33 @@ function Features() {
           All of our linguists sign non-disclosure agreements.
         </p>
       </div>
+    </section>
+  )
+}
+
+function AboutUs() {
+  return (
+    <section className="p-6 space-y-4">
+      <h1 className="text-3xl text-bold text-cyan-900">About us</h1>
+      <p>
+        Apex Legal is an English-Arabic translation and language solution agency
+        founded in Egypt to serve clients anywhere in the Middle East and the
+        world by a group of devoted translators and lawyer linguists. Our
+        services are confined to the law and finance related area, which receive
+        our undivided attention enabling us to professionally and impeccably
+        utilize and maintain the relevant jargons and styles.
+      </p>
+      <p>
+        Do not put your business at stake; you can completely depend our highly
+        skilled and experienced linguists in processing your legal and financial
+        materials as they perfectly understand the gravity of every single word,
+        and will exert their utmost effort to maintain high quality and meet
+        your deadlines.
+      </p>
+      <p>
+        Through our supporting services, we aspire and spare no effort to be an
+        essential part of your business and successfully prosper together.
+      </p>
     </section>
   )
 }
