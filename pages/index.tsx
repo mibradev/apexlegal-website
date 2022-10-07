@@ -23,7 +23,7 @@ const Home: NextPage = () => {
 
 function Header() {
   return (
-    <header className="p-6 pb-0">
+    <header className="p-6 md:px-12 lg:px-24 xl:px-48 pb-0">
       <h1 className="text-xl font-bold">Apex Legal</h1>
     </header>
   )
@@ -31,7 +31,7 @@ function Header() {
 
 function Hero() {
   return (
-    <main className="p-6 space-y-6 py-24 text-center">
+    <main className="p-6 md:px-12 lg:px-24 xl:px-48 space-y-6 py-24 text-center">
       <h1 className="text-3xl text-bold">Lorem ipsum dolor sit.</h1>
       <p className="text-lg text-cyan-200">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus saepe
@@ -49,7 +49,7 @@ function Hero() {
 
 function Features() {
   return (
-    <section className="p-6 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+    <section className="p-6 md:px-12 lg:px-24 xl:px-48 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
       <div className="space-y-2">
         <h1 className="text-xl text-bold text-cyan-900">
           A Powerful Human Touch
@@ -108,7 +108,7 @@ function Features() {
 
 function AboutUs() {
   return (
-    <section className="p-6 space-y-4">
+    <section className="p-6 md:px-12 lg:px-24 xl:px-48 space-y-4">
       <h1 className="text-3xl text-bold text-cyan-900">About us</h1>
       <p>
         Apex Legal is an English-Arabic translation and language solution agency
