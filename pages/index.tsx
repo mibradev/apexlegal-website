@@ -52,9 +52,9 @@ function Features() {
   return (
     <section className="p-6 md:px-12 lg:px-24 xl:px-48 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
       <div className="space-y-2">
-        <h1 className="text-xl text-bold text-cyan-900">
+        <h2 className="text-xl text-bold text-cyan-900">
           A Powerful Human Touch
-        </h1>
+        </h2>
         <p>
           Your words are personal. We respect that. So, your words stay in human
           hands from beginning to end. Your documents are human translated &
@@ -62,7 +62,7 @@ function Features() {
         </p>
       </div>
       <div className="space-y-2">
-        <h1 className="text-xl text-bold text-cyan-900">Quality</h1>
+        <h2 className="text-xl text-bold text-cyan-900">Quality</h2>
         <p>
           We are typically aware that mistranslation may cost you millions! Our
           robust quality assurance system makes us the most accurate translation
@@ -70,7 +70,7 @@ function Features() {
         </p>
       </div>
       <div className="space-y-2">
-        <h1 className="text-xl text-bold text-cyan-900">Industry Experts</h1>
+        <h2 className="text-xl text-bold text-cyan-900">Industry Experts</h2>
         <p>
           A translation should not only be written well, but should be written
           in the language your industry understands. Our dedicated team of
@@ -79,14 +79,14 @@ function Features() {
         </p>
       </div>
       <div className="space-y-2">
-        <h1 className="text-xl text-bold text-cyan-900">Dedication</h1>
+        <h2 className="text-xl text-bold text-cyan-900">Dedication</h2>
         <p>
           APEX LEGAL team is dedicated to delivering the best services to meet
           all the needs of clients engaged in language related matters.
         </p>
       </div>
       <div className="space-y-2">
-        <h1 className="text-xl text-bold text-cyan-900">Affordable Cost</h1>
+        <h2 className="text-xl text-bold text-cyan-900">Affordable Cost</h2>
         <p>
           We have specially designed packages to address the translation needs
           of all our customers. Our affordable and competitive prices start from
@@ -95,9 +95,9 @@ function Features() {
         </p>
       </div>
       <div className="space-y-2">
-        <h1 className="text-xl text-bold text-cyan-900">
+        <h2 className="text-xl text-bold text-cyan-900">
           Confidentiality and Privacy
-        </h1>
+        </h2>
         <p>
           We always protect the confidentiality and privacy of your documents.
           All of our linguists sign non-disclosure agreements.
@@ -110,7 +110,7 @@ function Features() {
 function AboutUs() {
   return (
     <section className="p-6 md:px-12 lg:px-24 xl:px-48 space-y-4">
-      <h1 className="text-3xl text-bold text-cyan-900">About us</h1>
+      <h2 className="text-3xl text-bold text-cyan-900">About us</h2>
       <p>
         Apex Legal is an English-Arabic translation and language solution agency
         founded in Egypt to serve clients anywhere in the Middle East and the
