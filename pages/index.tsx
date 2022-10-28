@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import { Inter } from '@next/font/google'
 import {
   ChatBubbleBottomCenterTextIcon,
   DocumentMagnifyingGlassIcon,
@@ -10,9 +11,11 @@ import {
 } from '@heroicons/react/24/outline'
 import heroImage from '../images/hero.jpg'
 
+const inter = Inter({ subsets: ['latin'] })
+
 const Home: NextPage = () => {
   return (
-    <>
+    <div className={inter.className}>
       <Head>
         <title>Apex Legal</title>
         <meta
@@ -35,7 +38,7 @@ const Home: NextPage = () => {
       <Features />
       <AboutUs />
       <Services />
-    </>
+    </div>
   )
 }
 
