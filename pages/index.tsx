@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Image from 'next/image'
 import {
   ChatBubbleBottomCenterTextIcon,
   DocumentMagnifyingGlassIcon,
@@ -7,6 +8,7 @@ import {
   PencilSquareIcon,
   ScaleIcon,
 } from '@heroicons/react/24/outline'
+import heroImage from '../images/hero.jpg'
 
 const Home: NextPage = () => {
   return (
@@ -18,9 +20,17 @@ const Home: NextPage = () => {
           content="Translation and language solutions."
         />
       </Head>
-      <div className="bg-gradient-to-r from-cyan-900 to-cyan-700 text-cyan-100">
-        <Header />
-        <Hero />
+      <div className="relative bg-cyan-900 text-white">
+        <Image
+          src={heroImage}
+          alt="Hero image"
+          fill
+          className="absolute object-cover w-full h-full opacity-10"
+        />
+        <div className="relative z-10">
+          <Header />
+          <Hero />
+        </div>
       </div>
       <Features />
       <AboutUs />
@@ -41,14 +51,14 @@ function Hero() {
   return (
     <main className="p-6 md:px-12 lg:px-24 xl:px-48 space-y-6 py-24 text-center">
       <h1 className="text-3xl text-bold">The Translation Agency You Need</h1>
-      <p className="text-lg text-cyan-200">
+      <p className="text-lg text-cyan-100">
         What should you look for in a translation agency? If you’ve never hired
         a translation agency before, it might seem intimidating, or even risky.
         We want to ease your worries.
       </p>
       <a
         href="#"
-        className="inline-block bg-gradient-to-r from-cyan-700 to-cyan-500 text-cyan-100 px-8 py-3 rounded-md text-xl text-bold shadow-md"
+        className="inline-block bg-cyan-600 text-cyan-100 px-8 py-3 rounded-md text-xl text-bold shadow-md"
       >
         Contact us
       </a>
