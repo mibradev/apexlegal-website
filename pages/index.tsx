@@ -61,7 +61,7 @@ function Hero() {
       </p>
       <a
         href="#"
-        className="inline-block bg-cyan-600 text-cyan-100 px-8 py-3 rounded-md text-xl text-bold shadow-md"
+        className="inline-block bg-cyan-50 text-cyan-900 px-8 py-3 rounded-md text-xl text-bold shadow-md"
       >
         Contact us
       </a>
