@@ -23,18 +23,7 @@ const Home: NextPage = () => {
           content="Translation and language solutions."
         />
       </Head>
-      <div className="relative bg-cyan-900 text-white">
-        <Image
-          src={heroImage}
-          alt="Hero image"
-          fill
-          className="absolute object-cover w-full h-full opacity-10"
-        />
-        <div className="relative z-10">
-          <Header />
-          <Hero />
-        </div>
-      </div>
+      <Header />
       <Features />
       <AboutUs />
       <Services />
@@ -43,6 +32,23 @@ const Home: NextPage = () => {
 }
 
 function Header() {
+  return (
+    <div className="relative bg-cyan-900 text-white">
+      <Image
+        src={heroImage}
+        alt="Hero image"
+        fill
+        className="absolute object-cover w-full h-full opacity-10"
+      />
+      <div className="relative z-10">
+        <Navbar />
+        <Hero />
+      </div>
+    </div>
+  )
+}
+
+function Navbar() {
   return (
     <header className="p-6 md:px-12 lg:px-24 xl:px-48 pb-0">
       <h1 className="text-xl font-bold">Apex Legal</h1>
