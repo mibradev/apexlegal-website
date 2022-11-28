@@ -42,8 +42,10 @@ function Header() {
       />
       <div className="relative z-10">
         <div className="p-6 md:px-12 lg:px-24 xl:px-48">
-          <Navbar />
-          <Hero />
+          <div className="space-y-6">
+            <Navbar />
+            <Hero />
+          </div>
         </div>
       </div>
     </div>
