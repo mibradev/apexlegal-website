@@ -63,11 +63,13 @@ function Navbar() {
 function Hero() {
   return (
     <main className="space-y-6 py-24 text-center">
-      <h1 className="text-3xl text-bold">The Translation Agency You Need</h1>
+      <h1 className="text-3xl text-bold">
+        The Translation Agency You Can Trust!
+      </h1>
       <p className="text-lg text-cyan-100">
-        What should you look for in a translation agency? If you’ve never hired
-        a translation agency before, it might seem intimidating, or even risky.
-        We want to ease your worries.
+        Our devoted lawyer linguists and translators have the required knowledge
+        and hands-on experience that give solid grounds for your high
+        expectations.
       </p>
       <a
         href="#"
