@@ -62,15 +62,17 @@ function Navbar() {
 
 function Hero() {
   return (
-    <main className="mx-auto max-w-4xl space-y-6 py-24 text-center">
-      <h1 className="text-3xl text-bold">
-        The Translation Agency You Can Trust!
-      </h1>
-      <p className="text-lg text-cyan-100">
-        Our devoted lawyer linguists and translators have the required knowledge
-        and hands-on experience that give solid grounds for your high
-        expectations.
-      </p>
+    <main className="mx-auto max-w-4xl space-y-8 py-24 text-center">
+      <div className="space-y-6">
+        <h1 className="text-3xl text-bold">
+          The Translation Agency You Can Trust!
+        </h1>
+        <p className="text-lg text-cyan-100">
+          Our devoted lawyer linguists and translators have the required
+          knowledge and hands-on experience that give solid grounds for your
+          high expectations.
+        </p>
+      </div>
       <a
         href="#"
         className="inline-block bg-pink-700 text-pink-100 px-8 py-3 rounded-md text-xl text-bold shadow-md"
