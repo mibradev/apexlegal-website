@@ -62,7 +62,7 @@ function Navbar() {
 
 function Hero() {
   return (
-    <main className="space-y-6 py-24 text-center">
+    <main className="mx-auto max-w-4xl space-y-6 py-24 text-center">
       <h1 className="text-3xl text-bold">
         The Translation Agency You Can Trust!
       </h1>
