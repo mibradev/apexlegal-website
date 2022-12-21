@@ -41,7 +41,7 @@ function Header() {
         className="absolute object-cover w-full h-full opacity-10"
       />
       <div className="relative z-10">
-        <div className="p-6 md:px-12 lg:px-24 xl:px-48">
+        <div className="p-6 2xl:px-48">
           <div className="space-y-6">
             <Navbar />
             <Hero />
@@ -85,7 +85,7 @@ function Hero() {
 
 function Features() {
   return (
-    <div className="p-6 md:px-12 lg:px-24 xl:px-48">
+    <div className="p-6 2xl:px-48">
       <section className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
         <div className="space-y-2">
           <h2 className="text-xl text-bold text-cyan-900">
@@ -146,7 +146,7 @@ function Features() {
 
 function AboutUs() {
   return (
-    <div className="p-6 md:px-12 lg:px-24 xl:px-48">
+    <div className="p-6 2xl:px-48">
       <section className="space-y-4">
         <h2 className="text-3xl text-bold text-cyan-900">About us</h2>
         <p>
@@ -175,7 +175,7 @@ function AboutUs() {
 
 function Services() {
   return (
-    <div className="p-6 md:px-12 lg:px-24 xl:px-48">
+    <div className="p-6 2xl:px-48">
       <section className="grid gap-6 2xl:grid-cols-4">
         <div className="relative py-12 mt-12 space-y-4 md:px-6 md:bg-gray-50 md:rounded-md md:shadow 2xl:col-span-2 2xl:last:col-start-2">
           <div className="flex justify-center">
