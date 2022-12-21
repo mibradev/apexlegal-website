@@ -1,6 +1,5 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import {
   ChatBubbleBottomCenterTextIcon,
@@ -9,7 +8,7 @@ import {
   PencilSquareIcon,
   ScaleIcon,
 } from '@heroicons/react/24/outline'
-import heroImage from '../images/hero.jpg'
+import Hero from '../components/hero'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,63 +22,11 @@ const Home: NextPage = () => {
           content="Translation and language solutions."
         />
       </Head>
-      <Header />
+      <Hero />
       <Features />
       <AboutUs />
       <Services />
     </div>
-  )
-}
-
-function Header() {
-  return (
-    <div className="relative bg-cyan-900 text-white">
-      <Image
-        src={heroImage}
-        alt="Hero image"
-        fill
-        className="absolute object-cover w-full h-full opacity-10"
-      />
-      <div className="relative z-10">
-        <div className="p-6 2xl:px-48">
-          <div className="space-y-6">
-            <Navbar />
-            <Hero />
-          </div>
-        </div>
-      </div>
-    </div>
-  )
-}
-
-function Navbar() {
-  return (
-    <header>
-      <h1 className="text-xl font-bold">Apex Legal</h1>
-    </header>
-  )
-}
-
-function Hero() {
-  return (
-    <main className="mx-auto max-w-4xl space-y-8 py-24 text-center">
-      <div className="space-y-6">
-        <h1 className="text-3xl text-bold">
-          The Translation Agency You Can Trust!
-        </h1>
-        <p className="text-lg text-cyan-100">
-          Our devoted lawyer linguists and translators have the required
-          knowledge and hands-on experience that give solid grounds for your
-          high expectations.
-        </p>
-      </div>
-      <a
-        href="#"
-        className="inline-block bg-pink-700 text-pink-100 px-8 py-3 rounded-md text-xl text-bold shadow-md"
-      >
-        Contact us
-      </a>
-    </main>
   )
 }
 
