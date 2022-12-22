@@ -9,6 +9,7 @@ import {
   ScaleIcon,
 } from '@heroicons/react/24/outline'
 import Hero from '../components/hero'
+import Features from '../components/features'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -24,69 +25,6 @@ const Home: NextPage = () => {
       </Head>
       <Hero />
       <Features />
-      <AboutUs />
-      <Services />
-    </div>
-  )
-}
-
-function Features() {
-  return (
-    <div className="p-6 2xl:px-48">
-      <section className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
-        <div className="space-y-2">
-          <h2 className="text-xl text-bold text-cyan-900">
-            A Powerful Human Touch
-          </h2>
-          <p>
-            Your words are personal. We respect that. So, your words stay in
-            human hands from beginning to end. Your documents are human
-            translated & human approved.
-          </p>
-        </div>
-        <div className="space-y-2">
-          <h2 className="text-xl text-bold text-cyan-900">Quality</h2>
-          <p>
-            We are typically aware that mistranslation may cost you millions!
-            Our robust quality assurance system makes us the most accurate
-            translation company and helps you reduce costs.
-          </p>
-        </div>
-        <div className="space-y-2">
-          <h2 className="text-xl text-bold text-cyan-900">Industry Experts</h2>
-          <p>
-            A translation should not only be written well, but should be written
-            in the language your industry understands. Our dedicated team of
-            lawyer linguists have the knowledge and experience to convey
-            messages using the typical language of law.
-          </p>
-        </div>
-        <div className="space-y-2">
-          <h2 className="text-xl text-bold text-cyan-900">Dedication</h2>
-          <p>
-            APEX LEGAL team is dedicated to delivering the best services to meet
-            all the needs of clients engaged in language related matters.
-          </p>
-        </div>
-        <div className="space-y-2">
-          <h2 className="text-xl text-bold text-cyan-900">Affordable Cost</h2>
-          <p>
-            We have specially designed packages to address the translation needs
-            of all our customers. Our affordable and competitive prices start
-            from $0.05/word so that all the businesses can pursue their dream of
-            going global.
-          </p>
-        </div>
-        <div className="space-y-2">
-          <h2 className="text-xl text-bold text-cyan-900">
-            Confidentiality and Privacy
-          </h2>
-          <p>
-            We always protect the confidentiality and privacy of your documents.
-            All of our linguists sign non-disclosure agreements.
-          </p>
-        </div>
-      </section>
     </div>
   )
 }
