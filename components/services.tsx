@@ -6,7 +6,7 @@ import TranscriptionIllustration from './illustrations/transcription'
 
 export default function Services() {
   return (
-    <div className="bg-white">
+    <div id="services" className="bg-white">
       <div className="my-24 text-center xl:mb-0">
         <h2 className="font text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
           Services
