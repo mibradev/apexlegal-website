@@ -1,15 +1,9 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
-import {
-  ChatBubbleBottomCenterTextIcon,
-  DocumentMagnifyingGlassIcon,
-  LanguageIcon,
-  PencilSquareIcon,
-  ScaleIcon,
-} from '@heroicons/react/24/outline'
 import Hero from '../components/hero'
 import Features from '../components/features'
+import Services from '../components/services'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -25,6 +19,7 @@ const Home: NextPage = () => {
       </Head>
       <Hero />
       <Features />
+      <Services />
     </div>
   )
 }
@@ -53,120 +48,6 @@ function AboutUs() {
           Through our supporting services, we aspire and spare no effort to be
           an essential part of your business and successfully prosper together.
         </p>
-      </section>
-    </div>
-  )
-}
-
-function Services() {
-  return (
-    <div className="p-6 2xl:px-48">
-      <section className="grid gap-6 2xl:grid-cols-4">
-        <div className="relative py-12 mt-12 space-y-4 md:px-6 md:bg-gray-50 md:rounded-md md:shadow 2xl:col-span-2 2xl:last:col-start-2">
-          <div className="flex justify-center">
-            <LanguageIcon className="absolute -top-12 h-24 w-24 p-6 rounded-full bg-gradient-to-r from-cyan-700 to-cyan-500 text-cyan-100 shadow" />
-          </div>
-          <h2 className="text-3xl text-bold text-cyan-900 text-center">
-            Translation Services
-          </h2>
-          <p className="text-justify">
-            When it comes to legal translation, legal documents adhere to strict
-            standards to leave no room for any error, omission or inaccuracy in
-            translation of legal documents submitted. For instance, the legal
-            translation of court documents must be 100% accurate, otherwise it
-            may result in a lawsuit being thrown out or a case easily dismissed
-            or an important argument being dismissed.
-          </p>
-          <p className="text-justify">
-            APEX LEGAL offers financial services for institutions seeking to
-            reach a specific local market or expand their services onto the
-            international scene. APEX LEGAL’s financial translation process is
-            managed by your personal account manager and executed by expert
-            translators and editors, all bonded contractually by a
-            non-disclosure agreement to ensure strict adherence to all security
-            and confidentiality provisions.
-          </p>
-          <p className="text-justify">
-            If your business documents involved any legal or financial texts or
-            terminology, do not worry we have a team of specialized translators
-            who are fully aware of the legal profession and all the applicable
-            laws and regulations in Middle East in general.
-          </p>
-        </div>
-        <div className="relative py-12 mt-12 space-y-4 md:px-6 md:bg-gray-50 md:rounded-md md:shadow 2xl:col-span-2 2xl:last:col-start-2">
-          <div className="flex justify-center">
-            <DocumentMagnifyingGlassIcon className="absolute -top-12 h-24 w-24 p-6 rounded-full bg-gradient-to-r from-cyan-700 to-cyan-500 text-cyan-100 shadow" />
-          </div>
-          <h2 className="text-3xl text-bold text-cyan-900 text-center">
-            Proofreading Services
-          </h2>
-          <p className="text-justify">
-            In order to have an accurate and error-free professional
-            translation, you need expert proofreaders. Luckily, we have an
-            experienced team on hand to take care of this!
-          </p>
-          <p className="text-justify">
-            When adding the proofreading service to your order, your project
-            will be meticulously revised by our specialized editing and
-            proofreading team to ensure that no spelling mistakes or grammatical
-            errors go unnoticed. When adding the proofreading service to your
-            translation, our team of professional proofreaders will also ensure
-            that the final project reads comfortably and has the proper tone to
-            meet the text’s requirements.
-          </p>
-        </div>
-        <div className="relative py-12 mt-12 space-y-4 md:px-6 md:bg-gray-50 md:rounded-md md:shadow 2xl:col-span-2 2xl:last:col-start-2">
-          <div className="flex justify-center">
-            <ScaleIcon className="absolute -top-12 h-24 w-24 p-6 rounded-full bg-gradient-to-r from-cyan-700 to-cyan-500 text-cyan-100 shadow" />
-          </div>
-          <h2 className="text-3xl text-bold text-cyan-900 text-center">
-            Legal Localization Services
-          </h2>
-          <p className="text-justify">
-            Localization goes deeper than translation, allowing you to
-            communicate with or take depositions from multilingual clients while
-            preserving the cultural nuances and feel of the original statement,
-            as well as its precise meaning. Legal localization is also important
-            when you are marketing your legal services or publishing research in
-            another language, where misunderstandings could damage your client
-            base or reputation.
-          </p>
-        </div>
-        <div className="relative py-12 mt-12 space-y-4 md:px-6 md:bg-gray-50 md:rounded-md md:shadow 2xl:col-span-2 2xl:last:col-start-2">
-          <div className="flex justify-center">
-            <PencilSquareIcon className="absolute -top-12 h-24 w-24 p-6 rounded-full bg-gradient-to-r from-cyan-700 to-cyan-500 text-cyan-100 shadow" />
-          </div>
-          <h2 className="text-3xl text-bold text-cyan-900 text-center">
-            Editing Services
-          </h2>
-          <p className="text-justify">
-            We can take new inputs or considerations (such as a new target
-            market) and edit the text to adapt to a particular local market.
-            Apex Legal will conduct a thorough review of the documentation for
-            accuracy, style, punctuation, potential cultural problems,
-            consistency, grammar, readability, etc. Our editing services are
-            designed to help our customer at every stage of a project. We also
-            consent to working and coordinating with other agencies to ensure
-            that you get the most accurate and reliable end product.
-          </p>
-        </div>
-        <div className="relative py-12 mt-12 space-y-4 md:px-6 md:bg-gray-50 md:rounded-md md:shadow 2xl:col-span-2 2xl:last:col-start-2">
-          <div className="flex justify-center">
-            <ChatBubbleBottomCenterTextIcon className="absolute -top-12 h-24 w-24 p-6 rounded-full bg-gradient-to-r from-cyan-700 to-cyan-500 text-cyan-100 shadow" />
-          </div>
-          <h2 className="text-3xl text-bold text-cyan-900 text-center">
-            Transcription Services
-          </h2>
-          <p className="text-justify">
-            Our transcription services are done by human transcriptionists. We
-            serve clients seeking academic, corporate, legal, and podcast
-            transcription services! In order to guarantee a high accuracy for
-            all transcripts, we hire transcriptionists from a variety of
-            industry backgrounds. This allows us to provide a wider variety of
-            transcription services while maintaining accuracy and fast
-            turnaround time.
-          </p>
-        </div>
       </section>
     </div>
   )
