@@ -1,10 +1,13 @@
 export default function About() {
   return (
-    <div className="bg-gray-100">
-      <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-          About us
-        </h2>
+    <div className="bg-white">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="mb-16 text-center">
+          <h2 className="font text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+            About us
+          </h2>
+          <hr className="mx-auto mt-6 w-32 border-b-4 border-b-sky-500" />
+        </div>
         <p className="mt-4 text-gray-500">
           Apex Legal is an English-Arabic translation and language solution
           agency founded in the Middle East by a group of devoted translators
