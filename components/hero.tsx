@@ -34,8 +34,8 @@ export default function Hero() {
               y2="474.645"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#06b6d4" />
-              <stop offset={1} stopColor="#ec4899" />
+              <stop stopColor="#0ea5e9" />
+              <stop offset={1} stopColor="#d946ef" />
             </linearGradient>
           </defs>
         </svg>
@@ -147,10 +147,10 @@ export default function Hero() {
                 <div className="mt-8 flex gap-x-4 sm:justify-center">
                   <a
                     href="#"
-                    className="inline-block rounded-lg bg-cyan-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-cyan-600 hover:bg-cyan-700 hover:ring-cyan-700"
+                    className="inline-block rounded-lg bg-sky-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-sky-600 hover:bg-sky-700 hover:ring-sky-700"
                   >
                     Get in touch
-                    <span className="text-cyan-200" aria-hidden="true">
+                    <span className="text-sky-200" aria-hidden="true">
                       &rarr;
                     </span>
                   </a>
@@ -177,8 +177,8 @@ export default function Hero() {
                       y2="474.645"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop stopColor="#06b6d4" />
-                      <stop offset={1} stopColor="#ec4899" />
+                      <stop stopColor="#0ea5e9" />
+                      <stop offset={1} stopColor="#d946ef" />
                     </linearGradient>
                   </defs>
                 </svg>

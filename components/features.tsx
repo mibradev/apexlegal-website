@@ -57,7 +57,7 @@ export default function Features() {
                 key={feature.name}
                 className="relative flex flex-col gap-6 sm:flex-row md:flex-col lg:flex-row"
               >
-                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-cyan-500 text-white sm:shrink-0">
+                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-sky-500 text-white sm:shrink-0">
                   <feature.icon className="h-8 w-8" aria-hidden="true" />
                 </div>
                 <div className="sm:min-w-0 sm:flex-1">
