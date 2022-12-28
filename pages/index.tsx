@@ -3,9 +3,10 @@ import Head from 'next/head'
 import { Inter } from '@next/font/google'
 import Hero from '../components/hero'
 import Features from '../components/features'
-import Services from '../components/services'
 import About from '../components/about'
+import Services from '../components/services'
 import Contact from '../components/contact'
+import Footer from '../components/footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -24,6 +25,7 @@ const Home: NextPage = () => {
       <About />
       <Services />
       <Contact />
+      <Footer />
     </div>
   )
 }
