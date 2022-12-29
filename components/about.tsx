@@ -4,7 +4,7 @@ export default function About() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-16 text-center">
           <h2 className="font text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-            About us
+            About Us
           </h2>
           <hr className="mx-auto mt-6 w-32 border-b-4 border-b-sky-500" />
         </div>

@@ -6,8 +6,8 @@ import Image from 'next/image'
 import logo from '../images/logo.png'
 
 const navigation = [
-  { name: 'Why us', href: '#features' },
-  { name: 'About us', href: '#about' },
+  { name: 'Why Us', href: '#features' },
+  { name: 'About Us', href: '#about' },
   { name: 'Services', href: '#services' },
 ]
 
@@ -83,7 +83,7 @@ export default function Hero() {
                 href="#contact"
                 className="inline-block rounded-lg px-3 py-1.5 text-sm font-semibold leading-6 text-gray-900 shadow-sm ring-1 ring-gray-900/10 hover:ring-gray-900/20"
               >
-                Contact us
+                Contact Us
               </a>
             </div>
           </nav>
@@ -126,7 +126,7 @@ export default function Hero() {
                       href="#contact"
                       className="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-gray-900 hover:bg-gray-400/10"
                     >
-                      Contact us
+                      Contact Us
                     </a>
                   </div>
                 </div>
