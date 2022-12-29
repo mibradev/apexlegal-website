@@ -8,11 +8,11 @@ import Services from '../components/services'
 import Contact from '../components/contact'
 import Footer from '../components/footer'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 
 const Home: NextPage = () => {
   return (
-    <div className={inter.className}>
+    <div className={`${inter.variable} font-sans`}>
       <Head>
         <title>Apex Legal</title>
         <meta
