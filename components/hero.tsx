@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import Link from 'next/link'
 
 const navigation = [
   { name: 'Features', href: '#features' },
@@ -47,11 +48,11 @@ export default function Hero() {
             aria-label="Global"
           >
             <div className="flex lg:min-w-0 lg:flex-1" aria-label="Global">
-              <a href="#" className="-m-1.5 p-1.5">
+              <Link href="/" className="-m-1.5 p-1.5">
                 <span className="uppercase text-base font-semibold leading-7 text-gray-900">
                   Apex Legal
                 </span>
-              </a>
+              </Link>
             </div>
             <div className="flex lg:hidden">
               <button
@@ -87,11 +88,11 @@ export default function Hero() {
             <Dialog.Panel className="fixed inset-0 z-10 overflow-y-auto bg-white px-6 py-6 lg:hidden">
               <div className="flex h-9 items-center justify-between">
                 <div className="flex">
-                  <a href="#" className="-m-1.5 p-1.5">
+                  <Link href="/" className="-m-1.5 p-1.5">
                     <span className="uppercase text-base font-semibold leading-7 text-gray-900">
                       Apex Legal
                     </span>
-                  </a>
+                  </Link>
                 </div>
                 <div className="flex">
                   <button
