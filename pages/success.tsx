@@ -1,13 +1,10 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import { Inter } from '@next/font/google'
 import Link from 'next/link'
-
-const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 
 const Home: NextPage = () => {
   return (
-    <div className={`${inter.variable} font-sans`}>
+    <>
       <Head>
         <title>Your message has been sent successfully</title>
         <meta
@@ -32,7 +29,7 @@ const Home: NextPage = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   )
 }
 
