@@ -13,6 +13,7 @@ export default function Contact() {
           </div>
           <form
             name="contact"
+            action="/success"
             method="POST"
             data-netlify-honeypot="honey"
             data-netlify-recaptcha="true"
