@@ -2,6 +2,8 @@ import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
+import Image from 'next/image'
+import logo from '../images/logo.png'
 
 const navigation = [
   { name: 'Why us', href: '#features' },
@@ -49,7 +51,8 @@ export default function Hero() {
           >
             <div className="flex lg:min-w-0 lg:flex-1" aria-label="Global">
               <Link href="/" className="-m-1.5 p-1.5">
-                <span className="uppercase text-base font-semibold leading-7 text-gray-900">
+                <Image className="inline w-auto h-8" src={logo} alt="Logo" />
+                <span className="ml-1.5 align-middle uppercase text-base font-semibold leading-7 text-gray-900">
                   Apex Legal
                 </span>
               </Link>
