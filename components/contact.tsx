@@ -15,15 +15,10 @@ export default function Contact() {
             name="contact"
             action="/success"
             method="POST"
-            data-netlify-honeypot="honey"
-            data-netlify-recaptcha="true"
             data-netlify="true"
           >
             <div className="overflow-hidden">
-              <div className="hidden">
-                <label htmlFor="honey">honey</label>
-                <input type="text" name="honey" id="honey" />
-              </div>
+              <input type="hidden" name="form-name" defaultValue="contact" />
               <div className="space-y-6 px-4 py-5 sm:p-6">
                 <div>
                   <label
@@ -76,7 +71,6 @@ export default function Contact() {
                   </div>
                 </div>
               </div>
-              <div data-netlify-recaptcha="true"></div>
               <div className="px-4 py-3 text-right sm:px-6">
                 <button
                   type="submit"
