@@ -16,10 +16,15 @@ export default function Contact() {
             action="/success"
             method="POST"
             data-netlify="true"
+            data-netlify-honeypot="website"
           >
             <div className="overflow-hidden">
               <input type="hidden" name="form-name" defaultValue="contact" />
               <div className="space-y-6 px-4 py-5 sm:p-6">
+                <div className="hidden">
+                  <label htmlFor="website">Website</label>
+                  <input name="website" id="website" />
+                </div>
                 <div>
                   <label
                     htmlFor="name"
