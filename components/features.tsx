@@ -48,7 +48,7 @@ const features = [
 
 export default function Features() {
   return (
-    <div id="features" className="bg-white pt-24 sm:pt-32 lg:pt-40">
+    <div id="features" className="bg-white py-12 sm:py-16 lg:py-20">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="max-w-lg sm:mx-auto md:max-w-none">
           <div className="grid grid-cols-1 gap-y-16 md:grid-cols-2 md:gap-x-12 md:gap-y-16">

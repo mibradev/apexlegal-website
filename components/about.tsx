@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div id="about" className="bg-white pt-24 sm:pt-32 lg:pt-40">
+    <div id="about" className="bg-white py-12 sm:py-16 lg:py-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-16 text-center">
           <h2 className="font text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">

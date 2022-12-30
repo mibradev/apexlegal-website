@@ -139,7 +139,7 @@ export default function Hero() {
       </div>
       <main>
         <div className="relative px-6 lg:px-8">
-          <div className="mx-auto max-w-3xl pt-20 sm:pt-48">
+          <div className="mx-auto max-w-3xl pt-24 pb-12 sm:pt-32 sm:pb-16 lg lg:pt-40 lg:pb-20">
             <div>
               <div>
                 <h1 className="text-4xl font-bold tracking-tight sm:text-center sm:text-6xl">
