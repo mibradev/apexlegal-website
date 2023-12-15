@@ -1,17 +1,14 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
+import { Metadata } from 'next'
 import Link from 'next/link'
 
-const Home: NextPage = () => {
+export const metadata: Metadata = {
+  title: 'Your message has been sent successfully',
+  description: 'Translation and language solutions.',
+}
+
+export default function Success() {
   return (
     <>
-      <Head>
-        <title>Your message has been sent successfully</title>
-        <meta
-          name="description"
-          content="Translation and language solutions."
-        />
-      </Head>
       <div className="bg-white py-24 sm:py-32 lg:py-40">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="sm:text-center">
@@ -32,5 +29,3 @@ const Home: NextPage = () => {
     </>
   )
 }
-
-export default Home

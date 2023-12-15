@@ -1,5 +1,4 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
+import { Metadata } from 'next'
 import Hero from '../components/hero'
 import Features from '../components/features'
 import About from '../components/about'
@@ -7,16 +6,14 @@ import Services from '../components/services'
 import Contact from '../components/contact'
 import Footer from '../components/footer'
 
-const Home: NextPage = () => {
+export const metadata: Metadata = {
+  title: 'Apex Legal',
+  description: 'Translation and language solutions.',
+}
+
+export default function Home() {
   return (
     <>
-      <Head>
-        <title>Apex Legal</title>
-        <meta
-          name="description"
-          content="Translation and language solutions."
-        />
-      </Head>
       <Hero />
       <Features />
       <About />
@@ -26,5 +23,3 @@ const Home: NextPage = () => {
     </>
   )
 }
-
-export default Home
